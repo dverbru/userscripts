@@ -1,0 +1,11 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig.json"],
+  "files": [],
+  "compilerOptions": {
+    "erasableSyntaxOnly": true /* Do not allow runtime constructs that are not part of ECMAScript. */,
+    "allowJs": true /* Allow JavaScript files to be a part of your program. */,
+    "checkJs": true /* Enable error reporting in type-checked JavaScript files. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports (for Windows’ case-insensitive file system). */
+  },
+  "$schema": "https://json.schemastore.org/tsconfig"
+}

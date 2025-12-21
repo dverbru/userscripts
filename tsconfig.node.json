@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@tsconfig/node24/tsconfig.json",
+    "@tsconfig/node-ts/tsconfig.json",
+    "./tsconfig.base.json"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext"
+  },
+  "$schema": "https://json.schemastore.org/tsconfig"
+}

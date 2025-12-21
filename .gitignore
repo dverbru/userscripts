@@ -1,0 +1,35 @@
+# See https://git-scm.com/docs/gitignore for more about ignoring files.
+
+# Dependencies
+node_modules
+
+# Build outputs
+*.tsbuildinfo
+*.user.d.ts
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Other IDEs and editors
+/.idea
+.project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+.pnpm-debug.log*
+
+# Private dotenv files
+.env*.local
+
+# Misc.
+.eslintcache
+coverage

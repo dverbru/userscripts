@@ -1,0 +1,17 @@
+= D's Userscripts
+
+A collection of userscripts developed for third-party web applications.
+
+Developed for use with a userscript manager. I recommend using https://violentmonkey.github.io/[Violentmonkey] for Firefox. For Chromium-based browsers, you have https://www.tampermonkey.net/[Tampermonkey] (not open-source, use at your own risk).
+
+== Jira Rich Link Copy (link:https://github.com/dverbru/userscripts/raw/main/src/scripts/jira/jira-rich-link-copy.user.js[get it])
+
+Enhances Jira's issue permalink copy button to yield HTML links including the issue title. It falls back to plain text when the target does not support HTML pasting, or when the browser denies rich clipboard access.
+
+In other words, when you use the “Copy link” button next to a Jira issue ID, instead of getting an opaque URL, you get a nicely formatted link like this: https://instance.atlassian.net/browse/PROJ-1234[PROJ-1234—Share human-readable links].
+
+This works in most rich text editors, including popular email clients and chat/IM apps.
+
+== More to come
+
+This is a first release. I will add more userscripts in the future. Stay tuned!

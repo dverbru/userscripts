@@ -1,0 +1,8 @@
+# Settings here are for cross-platform compatibility, not for code style
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true

@@ -1,0 +1,24 @@
+{
+  "description": "D's Userscripts",
+  "private": true,
+  "scripts": {
+    "format": "prettier --cache --write .",
+    "format:check": "prettier --cache --check .",
+    "spellcheck": "cspell **/*.adoc src/**/*.{html,css,json,js,mjs,cjs,ts,tsx}",
+    "typecheck": "pnpm typecheck:config && pnpm typecheck:scripts",
+    "typecheck:config": "tsc --project tsconfig.json",
+    "typecheck:scripts": "tsc --project src/tsconfig.json",
+    "clean": "git clean -Xdf",
+    "clean:dry-run": "git clean -Xdf --dry-run",
+    "clean:modules": "pnpm dlx rimraf node_modules"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+    "@tsconfig/node-ts": "^23.6.2",
+    "@tsconfig/node24": "^24.0.3",
+    "@tsconfig/strictest": "^2.0.8",
+    "cspell": "^9.4.0",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  }
+}

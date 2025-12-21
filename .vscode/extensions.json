@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "asciidoctor.asciidoctor-vscode",
+    "balajmarius.vscode-deprecated",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "streetsidesoftware.code-spell-checker",
+    "hverlin.mise-vscode"
+  ]
+}

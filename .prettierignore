@@ -1,0 +1,3 @@
+# Files versioned in git which Prettier has to ignore,
+# since they are automatically generated and do not need our formatting.
+pnpm-lock.yaml
